@@ -2,6 +2,7 @@ import org.junit.Test;
 import org.mockito.ArgumentCaptor;
 import papersplease.Bulletin;
 import papersplease.ID_Card;
+import papersplease.Officer;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.*;
@@ -19,16 +20,7 @@ public class ReceiveBulletinShould {
         new ReceiveBulletin().execute(bulletin, officerRepository, gameID);
 
         verify(officerRepository).save(argumentCaptor.capture());
-        assertThat(argumentCaptor.getValue().bulletin).isEqualToComparingFieldByField(bulletin);
-    }
-
-    private class Officer {
-        private Bulletin bulletin;
-
-        public void receiveBulletin(Bulletin bulletin) {
-            this.bulletin = bulletin;
-        }
-
+        assertThat(argumentCaptor.getValue().getBulletin()).isEqualToComparingFieldByField(bulletin);
     }
 
     private interface OfficerRepository {
