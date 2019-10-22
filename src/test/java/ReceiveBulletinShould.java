@@ -3,6 +3,7 @@ import org.mockito.ArgumentCaptor;
 import papersplease.Bulletin;
 import papersplease.ID_Card;
 import papersplease.Officer;
+import papersplease.actions.ReceiveBulletin;
 import papersplease.repository.OfficerRepository;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -24,11 +25,4 @@ public class ReceiveBulletinShould {
         assertThat(argumentCaptor.getValue().getBulletin()).isEqualToComparingFieldByField(bulletin);
     }
 
-    private class ReceiveBulletin {
-        public void execute(Bulletin bulletin, OfficerRepository officerRepository, int gameID) {
-            Officer officer = officerRepository.recover(gameID);
-            officer.receiveBulletin(bulletin);
-            officerRepository.save(officer);
-        }
-    }
 }
