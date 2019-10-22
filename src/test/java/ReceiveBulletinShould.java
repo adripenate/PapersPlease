@@ -8,14 +8,14 @@ public class ReceiveBulletinShould {
     public void assign_bulletin() {
         Bulletin bulletin = new Bulletin(new String[]{"Arstotzka"}, new Class[]{ID_Card.class},
                 null, new String[]{"Pepe Viyuela"});
-
+        int gameID = 1;
         OfficerRepository officerRepository = mock(OfficerRepository.class);
-        when(officerRepository.recover()).thenReturn(new Officer());
+        when(officerRepository.recover(gameID)).thenReturn(new Officer());
         ArgumentCaptor<Officer> argumentCaptor = ArgumentCaptor.forClass(Officer.class);
+
+        new ReceiveBulletin().execute(bulletin, officerRepository, gameID);
+
         verify(officerRepository).save(argumentCaptor.capture());
-
-        new ReceiveBulletin().execute(bulletin, officerRepository, 1);
-
         assertThat(argumentCaptor.getValue().bulletin).isEqualToComparingFieldByField(bulletin);
     }
 
@@ -46,14 +46,15 @@ public class ReceiveBulletinShould {
     }
 
     private interface OfficerRepository {
-        Officer recover();
-
+        Officer recover(int gameID);
         void save(Officer officer);
     }
 
     private class ReceiveBulletin {
         public void execute(Bulletin bulletin, OfficerRepository officerRepository, int gameID) {
-
+            Officer officer = officerRepository.recover(gameID);
+            officer.receiveBulletin(bulletin);
+            officerRepository.save(officer);
         }
     }
 }
