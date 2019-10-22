@@ -1,5 +1,7 @@
 import org.junit.Test;
 import org.mockito.ArgumentCaptor;
+import papersplease.Bulletin;
+
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.*;
 
@@ -17,20 +19,6 @@ public class ReceiveBulletinShould {
 
         verify(officerRepository).save(argumentCaptor.capture());
         assertThat(argumentCaptor.getValue().bulletin).isEqualToComparingFieldByField(bulletin);
-    }
-
-    private class Bulletin {
-        private final String[] cities;
-        private final Class[] documents;
-        private final String[] vaccinations;
-        private final String[] wantedCriminal;
-
-        public Bulletin(String[] cities, Class[] documents, String[] vaccinations, String[] wantedCriminal) {
-            this.cities = cities;
-            this.documents = documents;
-            this.vaccinations = vaccinations;
-            this.wantedCriminal = wantedCriminal;
-        }
     }
 
     private class ID_Card {

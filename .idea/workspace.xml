@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e167958c-34d8-44af-b79b-d4a2f091ee96" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_error_unknown.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PapersPlease.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PapersPlease.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ReceiveBulletinShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ReceiveBulletinShould.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,11 +30,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ReceiveBulletinShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-134">
-              <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+            <state relative-caret-position="170">
+              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1011#1012#0" expanded="true" />
+                <element signature="e#1059#1060#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/papersplease/Bulletin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -58,7 +66,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Bulletin.java" />
         <option value="$PROJECT_DIR$/src/test/java/ReceiveBulletinShould.java" />
+        <option value="$PROJECT_DIR$/src/main/java/papersplease/Bulletin.java" />
       </list>
     </option>
   </component>
@@ -104,6 +114,21 @@
               <item name="PapersPlease" type="b2602c69:ProjectViewProjectNode" />
               <item name="PapersPlease" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PapersPlease" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PapersPlease" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="papersplease" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PapersPlease" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PapersPlease" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -122,7 +147,14 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/papersplease" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../IFTT" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="papersplease" />
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -136,7 +168,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ReceiveBulletinShould.assign_bulletin">
+    <configuration name="ReceiveBulletinShould (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PapersPlease" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ReceiveBulletinShould" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReceiveBulletinShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PapersPlease" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ReceiveBulletinShould" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReceiveBulletinShould.assign_bulletin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PapersPlease" />
       <option name="PACKAGE_NAME" value="" />
@@ -150,6 +200,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ReceiveBulletinShould.assign_bulletin" />
+        <item itemvalue="JUnit.ReceiveBulletinShould (1)" />
+        <item itemvalue="JUnit.ReceiveBulletinShould" />
       </list>
     </recent_temporary>
   </component>
@@ -164,11 +216,35 @@
       <option name="presentableId" value="Default" />
       <updated>1571657553479</updated>
     </task>
+    <task id="LOCAL-00001" summary="Red test - ReceiveBulletinShould.assign_bulletin">
+      <created>1571765371422</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571765371422</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Green test - ReceiveBulletinShould.assign_bulletin">
+      <created>1571765793916</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571765793916</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="ReceiveBulletinShould_assing_bulletin - 2019.10.22 at 18h 03m 24s.xml">
       <configuration name="ReceiveBulletinShould.assing_bulletin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReceiveBulletinShould - 2019.10.22 at 18h 31m 11s.xml">
+      <configuration name="ReceiveBulletinShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReceiveBulletinShould_(1) - 2019.10.22 at 18h 35m 10s.xml">
+      <configuration name="ReceiveBulletinShould (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReceiveBulletinShould_assign_bulletin - 2019.10.22 at 18h 36m 08s.xml">
+      <configuration name="ReceiveBulletinShould.assign_bulletin" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -203,7 +279,15 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Red test - ReceiveBulletinShould.assign_bulletin" />
+    <MESSAGE value="Green test - ReceiveBulletinShould.assign_bulletin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Green test - ReceiveBulletinShould.assign_bulletin" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Bulletin.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -211,12 +295,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/papersplease/Bulletin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ReceiveBulletinShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-134">
-          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        <state relative-caret-position="170">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
           </folding>
         </state>
       </provider>
