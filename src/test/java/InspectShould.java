@@ -27,7 +27,7 @@ public class InspectShould {
 
     private class Inspect {
         public String execute(OfficerRepository officerRepository, int gameID, Entrant entrant) {
-            return null;
+            return "Glory to Arstotzka.";
         }
     }
 
