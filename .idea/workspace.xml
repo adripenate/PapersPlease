@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e167958c-34d8-44af-b79b-d4a2f091ee96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/InspectShould.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/papersplease/ID_Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/papersplease/ID_Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/papersplease/Entrant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InspectShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InspectShould.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/ReceiveBulletinShould.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="393">
-              <caret line="24" column="101" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="24" selection-end-column="101" />
+              <caret line="24" column="101" selection-start-line="14" selection-start-column="8" selection-end-line="24" selection-end-column="101" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,15 +33,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/InspectShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="345">
+              <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1161#1162#0" expanded="true" />
-                <element signature="e#1196#1197#0" expanded="true" />
-                <element signature="e#1353#1354#0" expanded="true" />
-                <element signature="e#1399#1400#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/papersplease/Entrant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -60,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/papersplease/ID_Card.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="90" lean-forward="true" selection-start-line="9" selection-start-column="90" selection-end-line="9" selection-end-column="90" />
+              <caret line="9" column="90" selection-start-line="9" selection-start-column="90" selection-end-line="9" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -100,6 +104,7 @@
         <option value="$PROJECT_DIR$/src/main/java/papersplease/repository/OfficerRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/Inspect.java" />
         <option value="$PROJECT_DIR$/src/main/java/papersplease/ID_Card.java" />
+        <option value="$PROJECT_DIR$/src/main/java/papersplease/Entrant.java" />
         <option value="$PROJECT_DIR$/src/test/java/InspectShould.java" />
       </list>
     </option>
@@ -188,13 +193,13 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/papersplease/repository" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/papersplease" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../IFTT" />
   </component>
   <component name="RecentsManager">
     <key name="MoveInnerDialog.RECENTS_KEY">
-      <recent name="papersplease.repository" />
       <recent name="papersplease" />
+      <recent name="papersplease.repository" />
       <recent name="" />
     </key>
   </component>
@@ -211,6 +216,24 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.InspectShould">
+    <configuration name="InspectShould (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PapersPlease" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InspectShould" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InspectShould (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PapersPlease" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InspectShould" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InspectShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PapersPlease" />
       <option name="PACKAGE_NAME" value="" />
@@ -220,25 +243,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReceiveBulletinShould (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PapersPlease" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ReceiveBulletinShould" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReceiveBulletinShould (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PapersPlease" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ReceiveBulletinShould" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReceiveBulletinShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PapersPlease" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ReceiveBulletinShould" />
@@ -260,10 +265,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.InspectShould" />
+        <item itemvalue="JUnit.InspectShould (2)" />
+        <item itemvalue="JUnit.InspectShould (1)" />
         <item itemvalue="JUnit.ReceiveBulletinShould (2)" />
         <item itemvalue="JUnit.ReceiveBulletinShould.assign_bulletin" />
-        <item itemvalue="JUnit.ReceiveBulletinShould (1)" />
-        <item itemvalue="JUnit.ReceiveBulletinShould" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +311,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571767047345</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Red test - let_entrant_pass_id_IDCard_is_present">
+      <created>1573157304692</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573157304693</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Green test - let_entrant_pass_id_IDCard_is_present">
+      <created>1573157524193</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1573157524193</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -325,12 +344,30 @@
     <history-entry file="ReceiveBulletinShould_assign_bulletin - 2019.10.22 at 18h 56m 46s.xml">
       <configuration name="ReceiveBulletinShould.assign_bulletin" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="InspectShould - 2019.11.07 at 20h 07m 19s.xml">
+      <configuration name="InspectShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InspectShould_(1) - 2019.11.07 at 20h 11m 28s.xml">
+      <configuration name="InspectShould (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InspectShould_(2) - 2019.11.07 at 20h 11m 43s.xml">
+      <configuration name="InspectShould (2)" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -339,12 +376,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.19639935" />
@@ -363,7 +400,9 @@
     <MESSAGE value="Green test - ReceiveBulletinShould.assign_bulletin" />
     <MESSAGE value="Refactor - ReceiveBulletinShould.assign_bulletin&#10;Inner class ID_Card moved to its own class" />
     <MESSAGE value="Refactor - ReceiveBulletinShould.assign_bulletin&#10;Inner class Officer moved to its own class&#10;getBulletin method created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor - ReceiveBulletinShould.assign_bulletin&#10;Inner class Officer moved to its own class&#10;getBulletin method created" />
+    <MESSAGE value="Red test - let_entrant_pass_id_IDCard_is_present" />
+    <MESSAGE value="Green test - let_entrant_pass_id_IDCard_is_present" />
+    <option name="LAST_COMMIT_MESSAGE" value="Green test - let_entrant_pass_id_IDCard_is_present" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/Bulletin.java" />
@@ -394,7 +433,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ReceiveBulletinShould.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
-          <caret line="24" column="101" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="24" selection-end-column="101" />
+          <caret line="24" column="101" selection-start-line="14" selection-start-column="8" selection-end-line="24" selection-end-column="101" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -408,23 +447,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/papersplease/Entrant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/papersplease/ID_Card.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="90" lean-forward="true" selection-start-line="9" selection-start-column="90" selection-end-line="9" selection-end-column="90" />
+          <caret line="9" column="90" selection-start-line="9" selection-start-column="90" selection-end-line="9" selection-end-column="90" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/InspectShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        <state relative-caret-position="345">
+          <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1161#1162#0" expanded="true" />
-            <element signature="e#1196#1197#0" expanded="true" />
-            <element signature="e#1353#1354#0" expanded="true" />
-            <element signature="e#1399#1400#0" expanded="true" />
           </folding>
         </state>
       </provider>
